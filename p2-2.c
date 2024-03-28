@@ -15,6 +15,7 @@ int main()
     printf(" print_one(one, 5) \n");
     printf("------------------------------------\n");
     print_one(one, 5);                                      //print_one 함수가 배열one의 시작주소와 , 5 를 입력값으로 작동한다.
+    printf("[----- [Park young hyeon] [2021041019] -----]");
     return 0;
 }
 void print_one(int *ptr, int rows)
