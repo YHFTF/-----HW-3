@@ -17,4 +17,4 @@ void main()
     printf("list + 4 \t= %p\n", list+4);        //list배열의 시작 주소로부터 16byte만큼 떨어진 주소를 출력한다.
     printf("&list[4] \t= %p\n", &list[4]);      //list[4]의 주소값을 출력한다.
     free(plist[0]);                             //plist[0]에 할당했던 heap영역의 메모리를 할당해제한다.
-}
+} 
