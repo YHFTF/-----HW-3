@@ -28,6 +28,7 @@ void main(void)
     printf("input \t= %p\n", input);                        //input배열의 시작주소가 출력된다.
     answer = sum3(MAX_SIZE, input);                         //sum3 함수가 input 배열의 시작주소와 , 100의 입력값을 가지고 실행된다. 이후 sum2 함수가 반환한 tempsum값을 answer값에 저장한다.
     printf("The sum is: %f\n\n", answer);                   //answer 값을 출력한다.
+    printf("[----- [Park young hyeon] [2021041019] -----]");
 }
 
 float sum1(float list[], int n) {
