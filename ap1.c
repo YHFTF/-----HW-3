@@ -12,7 +12,7 @@ void main()
     printf("list[0] = %d\n", list[0]);                          //list[0]의 값을 출력한다.
     printf("&list[0] = %p\n", &list[0]);                        //list[0]의 주소를 출력한다.
     printf("list = %p\n", list);                                //list 배열의 시작주소를 출력한다.
-    printf("&list = %p\n", &list);                              //list 배열의 시작주소를 출력한다.     따라서 list와 &list는 동치라는것을 알 수 있다.
+    printf("&list = %p\n", &list);                              //list 배열을 가르키는 포인터의 주소를 출력한다.
     printf("----------------------------------------\n\n");
     printf("list[1] = %d\n", list[1]);                          //list[1]에 저장된 값을 출력한다.
     printf("&list[1] = %p\n", &list[1]);                        //list[1]의 주소를 출력한다.
@@ -21,7 +21,7 @@ void main()
     printf("----------------------------------------\n\n");
     printf("*plist[0] = %d\n", *plist[0]);                      //plist[0]의 주소가 가르키는 값을 출력한다.
     printf("&plist[0] = %p\n", &plist[0]);                      //plist[0]의 주소를 출력한다.
-    printf("&plist = %p\n", &plist);                            //plist의 시작 주소를 출력한다.
+    printf("&plist = %p\n", &plist);                            //list 배열을 가르키는 포인터의 주소를 출력한다.
     printf("plist = %p\n", plist);                              //plist의 시작 주소를 출력한다.
     printf("plist[0] = %p\n", plist[0]);                        //plist[0]에 저장된 주소(heap영역에 할당된 주소)를 출력한다.
     printf("plist[1] = %p\n", plist[1]);                        //plist[1]에 저장된 주소(초기에 null로 세팅)을 출력한다.
